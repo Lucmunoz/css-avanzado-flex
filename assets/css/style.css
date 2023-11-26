@@ -36,30 +36,42 @@ body{
 }
 
 .chat-1{
-    padding: 15px;
+    height: 30%;
+    padding: 2rem;
+}
+
+.chat-2{
+pad: 6px;
 }
 
 .chat-2 h1{
-    margin: 0;
+    margin: 2px;
     font-size: 45px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #282d2e;
 }
 
+
 .chat-3{
-    width: 45%;
+    flex:0 0 10%;
+    width: 50%;
     text-align: center;
 }
 
 .chat-3 p{
-    font-size: 14px;
+    font-size: 16px;
     color: #282d2e;
 }
    
 .photo{
     border-radius: 50%;
     width: 100%;
+}
+
+.main-photo{
+    border-radius: 4%;
+    height: 100%;
 }
 
 .boton{
@@ -108,13 +120,12 @@ i{
 }
 
 .contacto-foto{
-    justify-content: center;
+    align-items: center;
     flex-basis:20%;
-    padding: 15px 10px 15px 30px;
+    padding: 12px 10px 12px 30px;
 }
 
 .mi-contacto-foto{
-    justify-content: center;
     flex-basis:12%;
     padding: 10px 10px 10px 30px;
 }
@@ -139,6 +150,10 @@ i{
 font-size: 10px;
 color: #828485;
 }
+
+.estado p{
+    color: #444749;
+    }
 
 p{
     font-size: 14px;
